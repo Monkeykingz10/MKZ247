@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fire Kirin Game Vault</title>
+    <style>
+        body {
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background-color: white;
+            padding: 30px 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin: 15px 0 5px;
+            font-weight: bold;
+        }
+        input, select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        button {
+            margin-top: 20px;
+            width: 100%;
+            padding: 12px;
+            background-color: #28a745;
+            color: white;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Vegas Sweeps, Juwa, Orion Stars, Milky Way</h2>
+        <form>
+            <label for="amount">Enter Deposit Amount (minimum $10):</label>
+            <input type="number" id="amount" name="amount" placeholder="Enter amount (whole numbers only)" min="10" required>
+
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username" required>
+
+            <label for="game">Select Game:</label>
+            <select id="game" name="game">
+                <option value="juwa">🎯 Juwa 🎯</option>
+                <option value="firekirin">🔥 Firekirin 🔥</option>
+                <option value="milkyway">🌌 Milkyway 🌌</option>
+                <option value="orion-stars">✨ Orion Stars ✨</option>
+                <option value="vegas-sweeps">🎰 Vegas Sweeps 🎰</option>
+                <option value="ultra-panda">🐼 Ultra Panda 🐼</option>
+                <option value="game-room">🕹️ Game Room 🕹️</option>
+                <option value="game-vault">💰 Game Vault 💰</option>
+            </select>
+
+            <button type="submit">Pay Now</button>
+        </form>
+    </div>
+</body>
+</html>
